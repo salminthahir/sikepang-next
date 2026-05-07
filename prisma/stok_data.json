@@ -1,0 +1,1058 @@
+[
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 2518,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 60,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 244.6,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 173,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 161,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 242,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 39.18,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 690,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 455.325,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 193.95,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 1,
+    "tahun": 2025,
+    "stok_masuk_ton": 180.17,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 2729,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 65,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 266.6,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 189,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 176,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 264,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 40.551,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 435,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 405.6,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 31.63,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 2,
+    "tahun": 2025,
+    "stok_masuk_ton": 180.6,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 2291,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 75,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 271,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 204,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 205,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 295,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 78.164,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 585,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 324.9,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 120.81,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 3,
+    "tahun": 2025,
+    "stok_masuk_ton": 127.17,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 2806,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 75,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 271,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 184,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 190,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 285,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 37.417,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 300,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 242,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 88.37,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 4,
+    "tahun": 2025,
+    "stok_masuk_ton": 188.63,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 2555,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 65,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 270,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 162,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 169,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 237,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 34.674,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 630,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 599,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 32.69,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 5,
+    "tahun": 2025,
+    "stok_masuk_ton": 189.59,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 2416,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 65,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 265,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 183,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 172,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 286,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 33.107,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 450,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 430,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 191.86,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 6,
+    "tahun": 2025,
+    "stok_masuk_ton": 189.09,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 3223.5,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 60,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 266.6,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 161,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 185,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 238,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 37.613,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 480,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 443,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 143,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 7,
+    "tahun": 2025,
+    "stok_masuk_ton": 187,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 2273,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 80,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 215,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 173,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 179,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 245,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 34,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 425,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 420,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 355.3,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 8,
+    "tahun": 2025,
+    "stok_masuk_ton": 148.46,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 2399,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 60,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 279,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 178,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 183,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 256,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 35,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 480,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 435,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 272.8,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 9,
+    "tahun": 2025,
+    "stok_masuk_ton": 175.46,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 2307,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 50,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 292.5,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 168,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 10,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 11,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BERAS",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "JAGUNG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG MERAH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "BAWANG PUTIH",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE BESAR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "CABE RAWIT",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING SAPI",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "DAGING AYAM",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "TELUR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "GULA PASIR",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  },
+  {
+    "nama_komoditas": "MINYAK GORENG",
+    "kategori_dinas": "Dinas Ketpang",
+    "bulan": 12,
+    "tahun": 2025,
+    "stok_masuk_ton": 0,
+    "stok_keluar_ton": 0
+  }
+]

@@ -1,0 +1,131 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  super_admin
+  admin_dinas
+  mitra
+}
+
+enum UserStatus {
+  aktif
+  nonaktif
+}
+
+enum KategoriUsaha {
+  Distributor
+  Penyosoh
+  Pasar
+  Petani
+}
+
+model User {
+  id_user      Int       @id @default(autoincrement())
+  username     String    @unique
+  password     String
+  role         Role
+  nama_lengkap String?
+  foto_profil  String?   @default("default.jpg")
+  status       UserStatus @default(aktif)
+  created_at   DateTime  @default(now())
+  updated_at   DateTime? @updatedAt
+
+  profil_mitra ProfilMitra?
+  profil_admin ProfilAdmin?
+  transaksi    TransaksiPangan[] @relation("InputBy")
+}
+
+model ProfilMitra {
+  id_mitra       Int           @id @default(autoincrement())
+  id_user        Int           @unique
+  nama_usaha     String?
+  kategori_usaha KategoriUsaha @default(Pasar)
+  alamat         String?
+  kontak_hp      String?
+  latitude       Float?
+  longitude      Float?
+  last_update    DateTime?
+
+  user      User              @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+  transaksi TransaksiPangan[]
+}
+
+model ProfilAdmin {
+  id_admin     Int      @id @default(autoincrement())
+  id_user      Int      @unique
+  nama_lengkap String?
+  no_hp        String?
+  created_at   DateTime @default(now())
+
+  user User @relation(fields: [id_user], references: [id_user], onDelete: Cascade)
+}
+
+model MsKomoditas {
+  id_komoditas Int     @id @default(autoincrement())
+  nama_pangan  String
+  satuan       String
+  icon_map     String? @default("default.png")
+
+  transaksi TransaksiPangan[]
+}
+
+model TransaksiPangan {
+  id_transaksi  BigInt   @id @default(autoincrement())
+  id_mitra      Int
+  id_komoditas  Int
+  jumlah_stok   Float    @default(0)
+  harga_jual    Float    @default(0)
+  tanggal_input DateTime @default(now()) @db.Date
+  input_by      Int
+
+  mitra     ProfilMitra @relation(fields: [id_mitra], references: [id_mitra])
+  komoditas MsKomoditas @relation(fields: [id_komoditas], references: [id_komoditas])
+  user      User        @relation("InputBy", fields: [input_by], references: [id_user])
+}
+
+model StokPanganBulanan {
+  id              BigInt   @id @default(autoincrement())
+  nama_komoditas  String
+  kategori_dinas  String   @default("Dinas Ketpang")
+  bulan           Int
+  tahun           Int
+  stok_masuk_ton  Decimal  @db.Decimal(15, 3)
+  stok_keluar_ton Decimal  @default(0) @db.Decimal(15, 3)
+  created_at      DateTime?
+  updated_at      DateTime?
+}
+
+model NotifikasiSistem {
+  id      BigInt   @id @default(autoincrement())
+  tipe    String   @default("info")
+  judul   String
+  pesan   String
+  icon    String
+  waktu   DateTime?
+  is_read Int      @default(0)
+}
+
+model SystemLog {
+  id         BigInt   @id @default(autoincrement())
+  username   String
+  ip_address String   @default("0.0.0.0")
+  action     String
+  status     String   @default("Success")
+  created_at DateTime?
+}
+
+model Berita {
+  id         Int      @id @default(autoincrement())
+  judul      String
+  slug       String   @unique
+  isi        String
+  gambar     String?
+  penulis    String   @default("Admin")
+  created_at DateTime?
+  updated_at DateTime?
+}
