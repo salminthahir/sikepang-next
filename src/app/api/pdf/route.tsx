@@ -1,48 +1,75 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { renderToStream } from '@react-pdf/renderer';
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
 import { prisma } from '@/lib/prisma';
 
 export const dynamic = 'force-dynamic';
 
 const styles = StyleSheet.create({
-  page: { padding: 30, fontSize: 12 },
-  title: { fontSize: 18, marginBottom: 10, textAlign: 'center', fontWeight: 'bold' },
-  subtitle: { fontSize: 10, marginBottom: 20, textAlign: 'center', color: '#666' },
-  table: { display: 'flex', width: 'auto', borderStyle: 'solid', borderWidth: 1, borderRightWidth: 0, borderBottomWidth: 0 },
-  tableRow: { margin: 'auto', flexDirection: 'row' },
-  tableColHeader: { width: '25%', borderStyle: 'solid', borderWidth: 1, borderLeftWidth: 0, borderTopWidth: 0, backgroundColor: '#f0f0f0', padding: 5 },
-  tableCol: { width: '25%', borderStyle: 'solid', borderWidth: 1, borderLeftWidth: 0, borderTopWidth: 0, padding: 5 },
-  cellHeader: { fontSize: 10, fontWeight: 'bold' },
-  cell: { fontSize: 10 }
+  page: { padding: 40, fontSize: 10, fontFamily: 'Helvetica', backgroundColor: '#ffffff' },
+  header: { flexDirection: 'row', alignItems: 'center', borderBottomWidth: 2, borderBottomColor: '#198754', paddingBottom: 15, marginBottom: 20 },
+  logo: { width: 50, height: 50, marginRight: 15 },
+  headerTextContainer: { flex: 1 },
+  title: { fontSize: 18, fontWeight: 'bold', color: '#1a1a1a', marginBottom: 4 },
+  subtitle: { fontSize: 10, color: '#666666' },
+  infoSection: { marginBottom: 20, padding: 10, backgroundColor: '#f8f9fa', borderRadius: 4 },
+  infoText: { fontSize: 10, color: '#333333', marginBottom: 4 },
+  table: { display: 'flex', width: 'auto', borderStyle: 'solid', borderWidth: 1, borderColor: '#e5e7eb', borderRadius: 4, overflow: 'hidden' },
+  tableRow: { flexDirection: 'row', borderBottomWidth: 1, borderBottomColor: '#e5e7eb' },
+  tableRowEven: { flexDirection: 'row', borderBottomWidth: 1, borderBottomColor: '#e5e7eb', backgroundColor: '#f9fafb' },
+  tableColHeader: { width: '25%', padding: 8, backgroundColor: '#155724' },
+  tableCol: { width: '25%', padding: 8 },
+  cellHeader: { fontSize: 10, fontWeight: 'bold', color: '#ffffff' },
+  cell: { fontSize: 10, color: '#1f2937' },
+  cellBold: { fontSize: 10, fontWeight: 'bold', color: '#198754' },
+  footer: { position: 'absolute', bottom: 30, left: 40, right: 40, textAlign: 'center', fontSize: 8, color: '#9ca3af', borderTopWidth: 1, borderTopColor: '#e5e7eb', paddingTop: 10 }
 });
 
-const PdfDocument = ({ data, lokasi }: { data: any[], lokasi: string }) => (
+const PdfDocument = ({ data, lokasi, origin }: { data: any[], lokasi: string, origin: string }) => (
   <Document>
     <Page style={styles.page}>
-      <Text style={styles.title}>Laporan Harga & Stok Pangan</Text>
-      <Text style={styles.subtitle}>Sistem Informasi Ketahanan Pangan (SiKepang) - Kota Ternate</Text>
+      {/* Header with Logo */}
+      <View style={styles.header}>
+        <Image src={`${origin}/logo/image.png`} style={styles.logo} />
+        <View style={styles.headerTextContainer}>
+          <Text style={styles.title}>Laporan Harga & Stok Pangan</Text>
+          <Text style={styles.subtitle}>Sistem Informasi Ketahanan Pangan (SiKepang) - Kota Ternate</Text>
+        </View>
+      </View>
       
-      <Text style={{ marginBottom: 5, fontSize: 10 }}>Filter Lokasi: {lokasi === 'rata_rata' ? 'Rekapitulasi Rata-Rata Kota' : lokasi || 'Semua Data'}</Text>
-      <Text style={{ marginBottom: 15, fontSize: 10 }}>Dicetak pada: {new Date().toLocaleDateString('id-ID')} {new Date().toLocaleTimeString('id-ID')}</Text>
+      {/* Document Info */}
+      <View style={styles.infoSection}>
+        <Text style={styles.infoText}>Filter Lokasi : {lokasi === 'rata_rata' ? 'Rekapitulasi Rata-Rata Kota' : lokasi || 'Semua Data'}</Text>
+        <Text style={styles.infoText}>Dicetak pada : {new Date().toLocaleDateString('id-ID')} - {new Date().toLocaleTimeString('id-ID')}</Text>
+        <Text style={styles.infoText}>Total Data   : {data.length} Entri</Text>
+      </View>
       
+      {/* Table */}
       <View style={styles.table}>
+        {/* Table Header */}
         <View style={styles.tableRow}>
           <View style={styles.tableColHeader}><Text style={styles.cellHeader}>Komoditas</Text></View>
           <View style={styles.tableColHeader}><Text style={styles.cellHeader}>Stok Tersedia</Text></View>
           <View style={styles.tableColHeader}><Text style={styles.cellHeader}>Harga Jual</Text></View>
           <View style={styles.tableColHeader}><Text style={styles.cellHeader}>Sumber / Lokasi</Text></View>
         </View>
+        
+        {/* Table Body */}
         {data.map((item, i) => (
-          <View style={styles.tableRow} key={i}>
-            <View style={styles.tableCol}><Text style={styles.cell}>{item.nama_pangan}</Text></View>
+          <View style={i % 2 === 0 ? styles.tableRow : styles.tableRowEven} key={i}>
+            <View style={styles.tableCol}><Text style={styles.cellBold}>{item.nama_pangan}</Text></View>
             <View style={styles.tableCol}><Text style={styles.cell}>{item.jumlah_stok.toLocaleString('id-ID')} {item.satuan}</Text></View>
-            <View style={styles.tableCol}><Text style={styles.cell}>Rp {item.harga_jual.toLocaleString('id-ID')}</Text></View>
+            <View style={styles.tableCol}><Text style={styles.cellBold}>Rp {item.harga_jual.toLocaleString('id-ID')}</Text></View>
             <View style={styles.tableCol}><Text style={styles.cell}>{item.nama_usaha}</Text></View>
           </View>
         ))}
       </View>
+
+      {/* Footer */}
+      <Text style={styles.footer} fixed>
+        Dokumen ini di-generate secara otomatis oleh Sistem Informasi Ketahanan Pangan (SiKepang) Kota Ternate.
+      </Text>
     </Page>
   </Document>
 );
@@ -123,7 +150,8 @@ export async function GET(req: NextRequest) {
       data = Array.from(uniqueMap.values());
     }
 
-    const stream = await renderToStream(<PdfDocument data={data} lokasi={lokasi} />);
+    const origin = req.nextUrl.origin;
+    const stream = await renderToStream(<PdfDocument data={data} lokasi={lokasi} origin={origin} />);
 
     return new Response(stream as any, {
       headers: {
