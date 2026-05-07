@@ -231,7 +231,7 @@ export default async function PanganPage(props: { searchParams: Promise<{ [key: 
                 </div>
               )}
             </div>
-
+            </div>
           </div>
         </div>
       </div>
