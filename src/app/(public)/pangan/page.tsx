@@ -195,63 +195,8 @@ export default async function PanganPage(props: { searchParams: Promise<{ [key: 
                   <span className="bg-[#198754] text-white text-xs font-bold px-3 py-1.5 rounded-full">Live Data</span>
               </div>
 
-              <div className="overflow-x-auto">
-                <table className="w-full text-left border-collapse">
-                  <thead className="bg-[#155724] text-white text-xs uppercase">
-                    <tr>
-                      <th className="py-4 px-6 font-semibold">Komoditas</th>
-                      <th className="py-4 px-6 font-semibold">Stok</th>
-                      <th className="py-4 px-6 font-semibold">Harga (Rp)</th>
-                      <th className="py-4 px-6 font-semibold">Sumber</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-100">
-                    {data.length === 0 ? (
-                      <tr>
-                        <td colSpan={4} className="text-center py-12">
-                          <div className="flex flex-col items-center justify-center">
-                            <div className="bg-gray-100 p-4 rounded-full mb-3">
-                              <Search size={32} className="text-gray-400" />
-                            </div>
-                            <h6 className="text-gray-500 font-bold">Data Tidak Ditemukan</h6>
-                          </div>
-                        </td>
-                      </tr>
-                    ) : (
-                      data.map((item, idx) => (
-                        <tr key={item.id || idx} className={`hover:bg-gray-50 transition-colors ${lokasi === 'rata_rata' ? 'bg-[#198754]/5' : ''}`}>
-                          <td className="py-4 px-6">
-                            <div className="flex items-center gap-3">
-                              <div className="text-[#198754]">
-                                ▶
-                              </div>
-                              <div className="font-bold text-gray-900">{item.nama_pangan}</div>
-                            </div>
-                          </td>
-                          <td className="py-4 px-6">
-                            <span className="font-bold text-gray-900">{item.jumlah_stok.toLocaleString('id-ID')}</span>
-                            <span className="text-xs text-gray-500 ml-1">{item.satuan}</span>
-                          </td>
-                          <td className="py-4 px-6">
-                            <div className="text-[#198754] font-bold">
-                              Rp {item.harga_jual.toLocaleString('id-ID')}
-                            </div>
-                          </td>
-                          <td className="py-4 px-6">
-                            <span className="bg-gray-100 text-gray-600 border border-gray-200 text-xs font-medium px-2.5 py-1 rounded">
-                              {item.nama_usaha}
-                            </span>
-                          </td>
-                        </tr>
-                      ))
-                    )}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            {/* Mobile View Cards (visible only on small screens) */}
-            <div className="block md:hidden space-y-4 mb-6">
+              {/* Card View (Desktop & Mobile) */}
+              <div className="p-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4 mb-2">
               {data.map((item, idx) => (
                 <div key={item.id || idx} className={`bg-white border-0 shadow-sm rounded-2xl p-4 ${lokasi === 'rata_rata' ? 'border-l-4 border-l-[#198754]' : ''}`}>
                   <div className="flex justify-between items-start mb-2">
@@ -275,6 +220,16 @@ export default async function PanganPage(props: { searchParams: Promise<{ [key: 
                   </div>
                 </div>
               ))}
+              {data.length === 0 && (
+                <div className="col-span-full text-center py-12">
+                  <div className="flex flex-col items-center justify-center">
+                    <div className="bg-gray-100 p-4 rounded-full mb-3">
+                      <Search size={32} className="text-gray-400" />
+                    </div>
+                    <h6 className="text-gray-500 font-bold">Data Tidak Ditemukan</h6>
+                  </div>
+                </div>
+              )}
             </div>
 
           </div>
